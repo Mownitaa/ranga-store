@@ -20,7 +20,7 @@ const showProducts = (products) => {
       <div>
     <img class="product-image" src=${image}></img>
       </div>
-      <h3>${product.title}</h3>
+      <h4>${product.title}</h4>
       <p class="text-primary fw-bolder">Category: ${product.category}</p>
       <h2 class="text-secondary">Price: $ ${product.price}</h2>
       <h4 class="mt-2">${rate} <i class="far fa-star text-primary fs-5"></i></h4>
